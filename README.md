@@ -20,3 +20,24 @@ conda activate llmapp
 ```bash
 pip install -r requirements.txt
 ```
+
+### Create a `.env` file in the root directory and add your Pinecone & openai or gemini key as follows:
+
+```ini
+PINECONE_API_KEY="XXXXXXXXXXXXXXXXXXXXXXXX"
+GEMINI_API_KEY="XXXXXXXXXXXXXXXXXXXXXX"
+```
+
+```bash
+python store_index.py
+````
+
+```bash
+#finally run the following command
+python app.py
+```
+
+now,
+```bash
+open up localhost:
+```
